@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    {% include 'navbar.html' %}
+    <style>
+        .heading-2 {
+            font-family: 'Roboto Slab', serif;
+            font-size: 1.5em;
+            letter-spacing: 0.08em;
+            font-weight: 300;
+            color: #1589FF;
+            text-shadow: 0 1px 1px #FFFFFF;
+            text-transform: uppercase;
+        }
+
+        .divider-2 {
+            border-bottom: 1px solid #FFF;
+            background-color: #DADADA;
+            height: 1px;
+            margin: 0.5em 0em 1.5em 0em;
+        }
+
+        .divider-2 span {
+            display: block;
+            width: 50px;
+            height: 1px;
+            background-color: #1589FF;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <div>
+        <link rel="stylesheet" type="text/css"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css"
+            href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/css/bootstrap-extended.min.css">
+        <link rel="stylesheet" type="text/css"
+            href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/fonts/simple-line-icons/style.min.css">
+        <link rel="stylesheet" type="text/css"
+            href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/css/colors.min.css">
+        <link rel="stylesheet" type="text/css"
+            href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+        <div class="container-fluid" style="margin-top: 1cm;">
+
+            <section id="stats-subtitle">
+                <div class="row">
+                    <div class="col-12 mt-3 mb-1">
+                      <h4 class="text-uppercase">Dashboard</h4>
+                      <hr>
+                    </div>
+                  </div>
+
+                <div class="row">
+                    <div class="col-xl-6 col-md-12">
+                        <div class="card">
+                            <a href="/insert/">
+                            <div class="card-content">
+                                <div class="card-body cleartfix">
+                                    <div class="media align-items-stretch">
+                                        <div class="align-self-center">
+                                            <i class="material-icons success font-large-2 mr-2">add</i>
+                                            
+                                        </div>
+                                        <div class="media-body">
+                                            <h4></h4>
+                                            <span></span>
+                                        </div>
+                                        <div class="align-self-center">
+                                            <h1>Insert</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-6 col-md-12">
+                        <div class="card">
+                            <a href="/update/">
+                            <div class="card-content">
+                                <div class="card-body cleartfix">
+                                    <div class="media align-items-stretch">
+                                        <div class="align-self-center">
+                                            <i class="material-icons primary font-large-2 mr-2">create</i>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4></h4>
+                                            <span></span>
+                                        </div>
+                                        <div class="align-self-center">
+                                            <h1>Update</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-md-12">
+                        <div class="card">
+                            <a href="/delete/">
+                            <div class="card-content">
+                                <div class="card-body cleartfix">
+                                    <div class="media align-items-stretch">
+                                        <div class="align-self-center">
+                                            <i class="material-icons danger font-large-2 mr-2">clear</i>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4></h4>
+                                            <span></span>
+                                        </div>
+                                        <div class="align-self-center">
+                                            <h1>Delete</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-md-12">
+                        <div class="card">
+                            <a href="/predict_given/">
+                            <div class="card-content">
+                                <div class="card-body cleartfix">
+                                    <div class="media align-items-stretch">
+                                        <div class="align-self-center">
+                                            <i class="material-icons warning font-large-2 mr-2">computer</i>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4></h4>
+                                            <span></span>
+                                        </div>
+                                        <div class="align-self-center">
+                                            <h1>Predict</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
